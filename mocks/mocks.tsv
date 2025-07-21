@@ -1,0 +1,3 @@
+Lux hotel    A luxurious hotel near the casino  2025-07-10  Amsterdam   ./img/hotelLux/preview.png   ['./img/hotelLux/1.png', './img/hotelLux/2.png', './img/hotelLux/3.png', './img/hotelLux/4.png', './img/hotelLux/5.png', './img/hotelLux/6.png']   true false  4,3 hotel   1   2   350 ['Breakfest', 'Air conditioning']   Vincent van Gogh    {latitude: 52.370216, lingtude: 4.895168}
+
+Ocean Star    A bright apartment near the beach  2025-07-10  Amsterdam   ./img/oceanStar/preview.png   ['./img/oceanStar/1.png', './img/oceanStar/2.png', './img/oceanStar/3.png', './img/oceanStar/4.png', './img/oceanStar/5.png', './img/oceanStar/6.png']   true false  4,3 hotel   1   2   350 ['Towels', 'Fridge', 'Air conditioning']   Luis Black  {latitude: 52.370216, lingtude: 4.895168}
