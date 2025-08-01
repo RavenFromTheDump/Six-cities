@@ -1,8 +1,9 @@
 import { User } from './index.js';
+import { Comment } from './index.js';
 
 export type SixCities = 'Paris' | 'Cologne' | 'Brussels' | 'Amsterdam' | 'Hamburg' | 'Dusseldorf';
 export type HousingType = 'apartment' | 'house' | 'room' | 'hotel';
-export type Amenity = | "Breakfast" | "Air conditioning" | "Laptop friendly workspace" | "Baby seat" | "Washer" | "Towels" | "Fridge";
+export type Amenity = 'Breakfast' | 'Air conditioning' | 'Laptop friendly workspace' | 'Baby seat' | 'Washer' | 'Towels' | 'Fridge';
 
 export interface Coordinates {
 	latitude: number;
@@ -25,6 +26,6 @@ export interface RentOffer {
 	price: number;
 	amenity: Amenity[];
 	landlord: User;
-	comments: string[];
+	comments: Comment;
 	mapCoordinates: Coordinates;
 }

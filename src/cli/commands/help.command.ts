@@ -17,7 +17,7 @@ export class HelpCommand implements Command {
           ${chalk.greenBright('--version:')}                   ${chalk.grey('# shows version number')}
           ${chalk.greenBright('--help:')}                      ${chalk.grey('# shows help page')}
           ${chalk.greenBright('--import <path>: ')}            ${chalk.grey('# imports data from TSV')}
-          ${chalk.greenBright('--generate <n> <path> <url>')}  ${chalk.grey('# generates any amount of test data')}
+          ${chalk.greenBright('--generate <n> <path> <url>: ')}${chalk.grey('# generates any amount of test data')}
     `);
 	}
 }
